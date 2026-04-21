@@ -1,5 +1,13 @@
 Flight Control System Simulation (PID vs LQR vs MPC)
 
+## 🎯 Controller Comparison at a Glance
+
+| Controller | Behavior |
+|----------|--------|
+| PID | Fast but aggressive, high control spikes |
+| LQR | Smooth optimal response |
+| MPC | Predictive, smoothest control effort |
+
 ### ✈️ Overview
 
 This project simulates aircraft pitch control using three control strategies:
@@ -49,6 +57,13 @@ MPC enables predictive control and constraint handling
 - MPC achieves predictive tracking with minimal control variation  
 
 This highlights the evolution from reactive → optimal → predictive control systems.
+
+## 🌍 Why This Matters
+
+Modern aerospace systems rely on advanced control strategies like LQR and MPC for stability, efficiency, and robustness under disturbances.
+
+This project demonstrates how predictive control methods can outperform classical techniques in real-world scenarios.
+
 ## ⚙️ Installation
 git clone https://github.com/shr3y4n/Flight-Control-System.git
 cd Flight-Control-System
