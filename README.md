@@ -1,4 +1,4 @@
-Flight Control System Simulation (PID vs LQR vs MPC)
+## Flight Control System Simulation (PID vs LQR vs MPC)
 
 ## 🎯 Controller Comparison at a Glance
 
