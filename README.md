@@ -28,6 +28,15 @@ State Response
 
 Control Effort
 
+## 🧪 Simulation Details
+
+- System: Aircraft pitch dynamics (2-state model)
+- Disturbances: Wind + measurement noise
+- Controllers:
+  - PID (tuned manually)
+  - LQR (optimal state feedback)
+  - MPC (finite-horizon predictive control)
+
 ## Key Insights
 PID is simple but oscillatory
 LQR provides smooth optimal control
