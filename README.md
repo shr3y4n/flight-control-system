@@ -22,11 +22,23 @@ LQR (Optimal Control)
 MPC (Predictive Control)
 
 The system simulates aircraft pitch dynamics under disturbances and evaluates controller performance in terms of stability, tracking, and control effort.
+
+## 🎯 What This Project Demonstrates
+
+This simulation shows how modern flight control systems transition from reactive control (PID) to optimal (LQR) and predictive (MPC) strategies.
+
+Such approaches are fundamental in real-world aerospace applications like UAV stabilization, autopilot systems, and advanced guidance algorithms. 
+
 ## Features
 Nonlinear/linear aircraft pitch model
 Step reference tracking
 Wind disturbance + noise
 PID, LQR, and MPC controllers
+
+## 🎥 Aircraft Pitch Simulation
+
+![Animation](results/plots/animation.gif)
+
 ## Performance metrics:
 Overshoot
 Settling time
@@ -44,6 +56,15 @@ Control Effort
   - PID (tuned manually)
   - LQR (optimal state feedback)
   - MPC (finite-horizon predictive control)
+  - 
+## 🧪 Technical Details
+
+- State-space modeling of aircraft pitch dynamics  
+- Linear system approximation  
+- Discrete-time simulation  
+- Optimal control via Riccati equation  
+- Predictive control approximation using finite-horizon formulation  
+
 
 ## Key Insights
 PID is simple but oscillatory
@@ -57,6 +78,14 @@ MPC enables predictive control and constraint handling
 - MPC achieves predictive tracking with minimal control variation  
 
 This highlights the evolution from reactive → optimal → predictive control systems.
+
+## 🚀 Key Takeaways
+
+- PID produces aggressive control spikes during transients  
+- LQR achieves smooth optimal control with minimal oscillation  
+- MPC demonstrates predictive behavior and smoother trajectory shaping  
+
+This highlights the progression from classical → optimal → predictive control in aerospace systems.
 
 ## 🌍 Why This Matters
 
